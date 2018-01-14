@@ -10,7 +10,9 @@
 #  http://www.dangermouse.net/esoteric/zombie.html
 # to read the specification, which was made over two years ago, and still nobody
 # dared implement it.
-
+#
+# I have modified the original language to add more functionallity. 
+#
 
 import re,sys,thread,time,random
 
