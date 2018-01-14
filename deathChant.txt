@@ -26,9 +26,9 @@ remember 0
 	task wisper
 		taste moan MolagBal
 		good
-			say "Hello"
+			say "True"
 		bad
-			say "World"		
+			say "False"		
 		spit
 	animate
 bind
