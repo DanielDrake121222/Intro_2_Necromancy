@@ -1,0 +1,6 @@
+nightMother is a ghost
+summon
+	task speak
+		say "Hail Sithis"
+	animate
+disturb
