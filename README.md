@@ -1,5 +1,5 @@
 # intro_2_necromany
-This should serve as a guide for any who is interested in summoning the undead. 
+This should serve as a guide for any who is interested in summoning the undead by running the zombie programming language. 
 
 Running the code:
 
