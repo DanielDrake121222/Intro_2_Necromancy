@@ -1,0 +1,8 @@
+bit is a zombie
+summon
+remember 0
+	task listen
+		command bit
+		say moan bit
+	animate
+animate

@@ -1,0 +1,15 @@
+bit is a zombie
+summon
+	remember 1
+bind
+
+tom is a zombie
+summon
+	remember 0
+	task speak
+		shamble
+			say moan tom
+			remember tom moan tom moan bit
+		until remembering 100
+	animate
+animate

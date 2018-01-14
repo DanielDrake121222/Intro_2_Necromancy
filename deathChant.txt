@@ -1,0 +1,34 @@
+Vestige is a zombie
+summon
+	remember 0
+	task wander
+	animate
+animate
+
+Vanus is a zombie
+summon 
+	remember 1
+	task wander
+	animate
+animate
+
+MolagBal is a demon
+summon	
+remember 0
+	task conjure
+		forget MolagBal
+		remember moan Vestige
+	animate
+	task dominate
+		forget MolagBal
+		remember moan Vanus
+	animate
+	task wisper
+		taste moan MolagBal
+		good
+			say "Hello"
+		bad
+			say "World"		
+		spit
+	animate
+bind
