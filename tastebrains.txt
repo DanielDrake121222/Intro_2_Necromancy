@@ -1,0 +1,31 @@
+Mannimarco is a zombie
+summon
+	remember 0
+animate
+
+Vestige is a zombie
+summon 
+	remember 1
+animate
+
+MolagBal is a demon
+summon	
+remember 0
+	task listen
+		say moan Mannimarco
+		remember moan Mannimarco
+	animate
+	task dominate 
+		say moan Mannimarco
+		remember moan Vestige
+	animate
+	task wisper
+		say moan Mannimarco
+		taste moan  
+		good 
+			say "Eat"
+		bad 
+			say "Brains"
+		spit
+	animate
+bind
