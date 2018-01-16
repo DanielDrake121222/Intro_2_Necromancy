@@ -1,0 +1,17 @@
+lhand is a zombie
+summon
+	task rem
+		remember 0
+	bind
+bind
+
+rhand is a zombie	
+summon 
+	task listen
+		remember 0
+		command lhand
+		command rhand
+		remember rhand moan lhand moan rhand
+		say moan rhand
+	animate
+animate
